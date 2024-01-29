@@ -25,5 +25,27 @@ Fields:
 - To update a product's quantity -> POST: http://localhost:4000/products/id/update_quantity?quantity=value (id represents the id of the product, value is the desired quantity)
 - To delete a product -> DELETE: http://localhost:4000//products/:id
 
+## Folder Structure
+**eCommerce-API**      
+    |
+    |---> config---->|---> mongoose.js
+    |               
+    |
+    |---> controllers-->|--> productController.js
+    |
+    |               
+    |--- >models---->|--> productSchema.js
+    |                  
+    |                |--> index.js
+    |---> routes---->|
+    |                |--> products.js
+    |               
+    |
+    |--> node_modules
+    |--> .gitignore
+    |--> index.js
+    |--> package-lock.json
+    |--> package.json
+
 ## Note
 This API is designed for beginners and serves as a simple example for managing product inventory in an ecommerce platform. Ensure that you have Node.js and MongoDB installed before running the application. For any issues or improvements, feel free to create an issue or pull request.
