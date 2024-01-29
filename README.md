@@ -26,24 +26,16 @@ Fields:
 - To delete a product -> DELETE: http://localhost:4000//products/:id
 
 ## Folder Structure
-    
-|-- eCommerce-API
-    |-- config ---> mongoose.js
-    |
-    |-- controllers ---> productController.js
-    |
-    |-- models |---> productSchema.js
-    |          |---> index.js
-    |
-    |-- routes
-    |   |-- products.js
-    |
-    |-- node_modules
-    |-- .gitignore
-    |-- index.js
-    |-- package-lock.json
-    |-- package.json
 
+- config: This directory contains configuration files for your project. In this case, mongoose.js holds the configuration for connecting to MongoDB.
+- controllers: Here, productController.js contains the logic for handling requests related to product operations.
+- models: This directory holds the data models of your application. productSchema.js defines the schema for the product model, and index.js exports all the models.
+- routes: The products.js file inside this directory defines the routes for handling product-related requests.
+- node_modules: This is where the dependencies are installed by npm.
+- .gitignore: This file specifies which files and folders should be ignored by Git.
+- index.js: The main entry point for your application.
+- package-lock.json: Automatically generated for any operations where npm modifies either the node_modules tree or package.json.
+- package.json: This file contains metadata about the project, including dependencies and scripts to run tasks.
 
 ## Note
 This API is designed for beginners and serves as a simple example for managing product inventory in an ecommerce platform. Ensure that you have Node.js and MongoDB installed before running the application. For any issues or improvements, feel free to create an issue or pull request.
