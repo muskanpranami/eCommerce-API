@@ -26,26 +26,27 @@ Fields:
 - To delete a product -> DELETE: http://localhost:4000//products/:id
 
 ## Folder Structure
-**eCommerce-API**      
+    
+|-- eCommerce-API
+    |-- config
+    |   |-- mongoose.js
     |
-    |---> config---->|---> mongoose.js
-    |               
+    |-- controllers
+    |   |-- productController.js
     |
-    |---> controllers-->|--> productController.js
+    |-- models
+    |   |-- productSchema.js
+    |   |-- index.js
     |
-    |               
-    |--- >models---->|--> productSchema.js
-    |                  
-    |                |--> index.js
-    |---> routes---->|
-    |                |--> products.js
-    |               
+    |-- routes
+    |   |-- products.js
     |
-    |--> node_modules
-    |--> .gitignore
-    |--> index.js
-    |--> package-lock.json
-    |--> package.json
+    |-- node_modules
+    |-- .gitignore
+    |-- index.js
+    |-- package-lock.json
+    |-- package.json
+
 
 ## Note
 This API is designed for beginners and serves as a simple example for managing product inventory in an ecommerce platform. Ensure that you have Node.js and MongoDB installed before running the application. For any issues or improvements, feel free to create an issue or pull request.
