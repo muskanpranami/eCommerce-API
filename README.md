@@ -28,15 +28,12 @@ Fields:
 ## Folder Structure
     
 |-- eCommerce-API
-    |-- config
-    |   |-- mongoose.js
+    |-- config ---> mongoose.js
     |
-    |-- controllers
-    |   |-- productController.js
+    |-- controllers ---> productController.js
     |
-    |-- models
-    |   |-- productSchema.js
-    |   |-- index.js
+    |-- models |---> productSchema.js
+    |          |---> index.js
     |
     |-- routes
     |   |-- products.js
